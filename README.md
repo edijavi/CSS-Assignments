@@ -40,6 +40,6 @@
     one and get it into pretty good shape before moving on. Starting at the top is always a
     solid plan.
 
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/edijavi/CSS-Assignments/blob/main/images/assignment.png)
+![alt text](https://github.com/edijavi/CSS-Assignments/blob/main/images/assignmentFontFamily.png)
 
