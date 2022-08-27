@@ -39,3 +39,5 @@
     section at a time. The website you’re creating has 4 main sections (and a footer), so pick
     one and get it into pretty good shape before moving on. Starting at the top is always a
     solid plan.
+
+![alt text](http://url/to/img.png)
