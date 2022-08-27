@@ -1,0 +1,9 @@
+body {
+    background-color: bisque;
+    font-family:sans-serif;
+    font-size: medium;
+    border: 1rem;
+}
+img{
+    border-radius: 50%;
+}
