@@ -13,13 +13,13 @@
     cascade stylesheet named ‘style.css’ which all of your HTML files will be linked to
     4. Within that style.css add properties to customize the page to your liking, make sure that
     you include the following:
-    1. Background color
-    2. Text color
-    3. Font family
-    4. Font size
-    5. Borders
-    6. Rounded corners on images
-    7. Remember that you can customize the pages to your liking, you will not be graded in
+        1. Background color
+        2. Text color
+        3. Font family
+        4. Font size
+        5. Borders
+        6. Rounded corners on images
+    5. Remember that you can customize the pages to your liking, you will not be graded in
     any way on how it looks as it’s a personal preference, but make sure to use at least all of
     the properties mentioned above in the list
 4. Assignment (Main CSS Project):
