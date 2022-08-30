@@ -1,68 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment (Main CSS Project)</title>
     <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="hero-image">
-          <nav>
-            <ul>
-              <li>  <a href="">Header Logo</a></li>
-              <li>  <a href="">header link one</a></li>
-              <li>  <a href="">header link two</a></li>
-              <li>  <a href=".">header link three</a></li>
+      <div class="header-container">
+        <div class="header-top">
+          <a href="./index.html">
+            <figure class="logo">
+              <img class="bg-svg" src="./images/logo.svg" alt="Logo">
+              <figcaption class="figureHidden">Logo</figcaption>
+            </figure>
+         </a>
+          <nav class="nav-menu">
+            <ul class="menu-list">
+              <li class="menu-link">  <a href="./pages/about.html">About</a></li>
+              <li class="menu-link">  <a href="./pages/experience.html">Experience</a></li>
+              <li class="menu-link">  <a href="./pages/portfolio.html">Portfolio</a></li>
             </ul>
           </nav>
-          <div class="hero-text">
+        </div>
+        <div class="header-hero">
+          <div class="hero-content">
             <h1>This website is awesome</h1>
             <p>This website has some subtext that goeshere under the main title. It's a s smaller font and the color is lower contrast</p>
-            <button>Sign up</button>
+            <button class='btn btn-blue'>Sign up</button>
           </div>
+          <figure class="hero-img">
+            <img class=scaled src="./images/developer.jpg" alt="Developer image">
+            <figcaption class="figureHidden">Developer image</figcaption>
+          </figure>
         </div>
-      </header>
-      <main>
-        <article>
-          <h2>Some random information</h2>
-          <div id="images">
-            <a href="http://xyz.com/hello">
-                <img src="hello.png" width="100px" height="100px">
-                <div class="caption">Caption 1</div>
-            </a>
-            <a href="http://xyz.com/hi">
-                <img src="hi.png" width="100px" height="100px"> 
-                <div class="caption">Caption 2</div>
-            </a>
-            <a href="http://xyz.com/hi">
-              <img src="hi.png" width="100px" height="100px"> 
-              <div class="caption">Caption 3</div>
+      </div>
+    </header>
+    <main>
+      <section class="info-images">
+        <h2>Core Technologies</h2>
+        <div id="images">
+          <a href="https://en.wikipedia.org/wiki/HTML">
+            <figure class="image-panel">
+              <img src="./images/icon-html.svg" alt="Icon HTML">
+              <figcaption >HTML</figcaption>
+            </figure>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/CSS">
+            <figure class="image-panel">
+              <img src="./images/icon-css.svg" alt="Icon CSS">
+              <figcaption >CSS</figcaption>
+            </figure>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/JavaScript">
+            <figure class="image-panel">
+              <img src="./images/icon-js.svg" alt="Icon JS">
+              <figcaption >HTML</figcaption>
+            </figure>
           </a>
         </div>
-        </article>
-        <article>
-          <div class="quote">
-            <p>
-              This is an inspiringquote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-              -Thor
-            </p>
-          </div>
-        </article>
-        <article>
-          <div class="banner">
+      </section>
+      <section>
+        <figure class="quote">
+          <blockquote>
+            This is an inspiringquote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+          </blockquote>
+          <figcaption>
+            <b>-Thor</b>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="banner">
+        <div class="banner-container">
+          <div class="banner-slogan">
             <h3>Call to action it's time!</h3>
             <p>
               Sign up for our product by clicking that button right over there!
             </p>
-            <button>Sign up</button>
           </div>
-        </article>
-      </main>
-      <footer>
-        <p>Copyright ©</p>
-      </footer>
-</body>
+          <button class="btn btn-blue btn-border">Sign up</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="footer-text">Copyright ©</p>
+    </footer>
+  </body>
 </html>

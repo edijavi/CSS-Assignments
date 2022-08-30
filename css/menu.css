@@ -1,0 +1,16 @@
+.nav-menu {
+    padding-top: 2rem;
+}
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.menu-link a {
+    font-family: 'Roboto';
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none; 
+}
