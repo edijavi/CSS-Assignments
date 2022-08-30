@@ -82,9 +82,12 @@ img.scaled {
     text-decoration:none;
  }
  figure.image-panel{
-    float: right;
     width: 10rem;
     height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
  }
  .image-panel img{
     background-color: white;
@@ -92,6 +95,13 @@ img.scaled {
     border-radius: 10%;
     width: 100%;
     height: 100%;
+ }
+ .image-panel figcaption{
+    padding-top: 0.5rem;
+    font-family: 'Roboto';
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 300;
  }
  .quote {
     padding: 0 20rem;
